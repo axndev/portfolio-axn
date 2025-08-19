@@ -1,4 +1,5 @@
 <script setup>
+import NavModal from '@/components/NavModal.vue';
 import { useDark, useToggle } from '@vueuse/core';
 import { ref } from 'vue';
 
