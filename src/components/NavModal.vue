@@ -27,16 +27,16 @@ defineProps({
         <nav class="mt-6">
             <ul
                 class="-my-2 divide-y divide-zinc-100 text-base text-zinc-800 dark:divide-zinc-100/5 dark:text-zinc-300">
+                <li><router-link class="block py-2" data-headlessui-state="open active" data-open="" data-active=""
+                    to="/">Home</router-link></li>
+                <li><router-link class="block py-2" data-headlessui-state="open active" data-open="" data-active=""
+                        to="/about">About</router-link></li>
+                <li><router-link class="block py-2" data-headlessui-state="open active" data-open="" data-active=""
+                        to="/projects">Projects</router-link></li>
+                <li><router-link class="block py-2" data-headlessui-state="open active" data-open="" data-active=""
+                        to="/blog">Blog</router-link></li>
                 <li><a class="block py-2" data-headlessui-state="open active" data-open="" data-active=""
-                        href="/about">About</a></li>
-                <li><a class="block py-2" data-headlessui-state="open active" data-open="" data-active=""
-                        href="/articles">Articles</a></li>
-                <li><a class="block py-2" data-headlessui-state="open active" data-open="" data-active=""
-                        href="/projects">Projects</a></li>
-                <li><a class="block py-2" data-headlessui-state="open active" data-open="" data-active=""
-                        href="/speaking">Speaking</a></li>
-                <li><a class="block py-2" data-headlessui-state="open active" data-open="" data-active=""
-                        href="/uses">Uses</a></li>
+                       target="_blank" href="mailto:kaleemullahahsan0@gmail.com">Contact</a></li>
             </ul>
         </nav>
     </div>

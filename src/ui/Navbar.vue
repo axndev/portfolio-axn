@@ -108,6 +108,12 @@ window.addEventListener("scroll", function () {
                                                     class="relative block px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400"
                                                     active-class="text-teal-500 dark:text-teal-400 after:absolute after:inset-x-1 after:-bottom-px after:h-px after:bg-gradient-to-r after:from-teal-500/0 after:via-teal-500/40 after:to-teal-500/0 dark:after:from-teal-400/0 dark:after:via-teal-400/40 dark:after:to-teal-400/0"
                                                     to="/projects">Projects</router-link></li>
+                                            <li><router-link to="/blog"
+                                                    class="relative block px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400"
+                                                    active-class="text-teal-500 dark:text-teal-400 after:absolute after:inset-x-1 after:-bottom-px after:h-px after:bg-gradient-to-r after:from-teal-500/0 after:via-teal-500/40 after:to-teal-500/0 dark:after:from-teal-400/0 dark:after:via-teal-400/40 dark:after:to-teal-400/0">
+                                                    Blog
+                                                </router-link>
+                                            </li>
                                             <li><a class="relative block px-3 py-2 transition hover:text-teal-500 dark:hover:text-teal-400"
                                                     href="mailto:kaleemullahahsan0@gmail.com"
                                                     target="_blank">Contact</a>
