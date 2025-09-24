@@ -81,8 +81,7 @@ window.addEventListener("scroll", function () {
                                     <div class="pointer-events-auto md:hidden">
                                         <button @click="toggleMenu();"
                                             class="group flex items-center rounded-full bg-white/90 px-4 py-2 text-sm font-medium text-zinc-800 shadow-lg ring-1 shadow-zinc-800/5 ring-zinc-900/5 backdrop-blur-sm dark:bg-zinc-800/90 dark:text-zinc-200 dark:ring-white/10 dark:hover:ring-white/20"
-                                            type="button">Menu<svg
-                                                viewBox="0 0 8 6" aria-hidden="true"
+                                            type="button">Menu<svg viewBox="0 0 8 6" aria-hidden="true"
                                                 class="ml-3 h-auto w-2 stroke-zinc-500 group-hover:stroke-zinc-700 dark:group-hover:stroke-zinc-400">
                                                 <path d="M1.75 1.75 4 4.25l2.25-2.5" fill="none" stroke-width="1.5"
                                                     stroke-linecap="round" stroke-linejoin="round"></path>
@@ -125,8 +124,7 @@ window.addEventListener("scroll", function () {
                                     <div class="pointer-events-auto">
                                         <button type="button" @click="toggleDark()"
                                             class="group rounded-full bg-white/90 px-3 py-2 shadow-lg ring-1 shadow-zinc-800/5 ring-zinc-900/5 backdrop-blur-sm transition dark:bg-zinc-800/90 dark:ring-white/10 dark:hover:ring-white/20">
-                                            <svg
-                                                viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round"
+                                            <svg viewBox="0 0 24 24" stroke-width="1.5" stroke-linecap="round"
                                                 stroke-linejoin="round" aria-hidden="true"
                                                 class="h-6 w-6 fill-zinc-100 stroke-zinc-500 transition group-hover:fill-zinc-200 group-hover:stroke-zinc-700 dark:hidden [@media(prefers-color-scheme:dark)]:fill-teal-50 [@media(prefers-color-scheme:dark)]:stroke-teal-500 [@media(prefers-color-scheme:dark)]:group-hover:fill-teal-50 [@media(prefers-color-scheme:dark)]:group-hover:stroke-teal-600">
                                                 <path
@@ -153,6 +151,7 @@ window.addEventListener("scroll", function () {
             </div>
         </div>
     </header>
+    <div id="headerSpacer"></div>
 </template>
 
 <style>
@@ -177,5 +176,25 @@ header.nav-up #smallAvatar {
 header.nav-down {
     position: static;
     width: auto;
+    transition: all .3s ease-in-out;
+}
+
+#headerSpacer {
+    display: none;
+    /* default */
+}
+
+
+header.nav-up + #headerSpacer {
+  display: block;
+  height: 80px; /* match your header height */
+}
+
+@media(min-width:768px) {
+    header.nav-up+#headerSpacer {
+        display: block;
+        height: 200px;
+        /* match your header height */
+    }
 }
 </style>
