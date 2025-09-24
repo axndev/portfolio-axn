@@ -1,19 +1,10 @@
 <script setup>
 import { ref, defineProps } from 'vue';
-import { onMounted, } from 'vue';
-import axios from 'axios';
 import Project from '@/components/Project.vue';
-const projects = ref([]);
+import { projectsData } from '@/data/projects';
 
-onMounted(async () => {
-    try {
-        const response = await axios.get("/api/projects");
-        projects.value = response.data
-    } catch (error) {
-        console.log(error);
-    }
-})
-console.log(projects.value)
+const projects = ref(projectsData); 
+
 defineProps({
     limit: {
         type: Number,
@@ -23,9 +14,11 @@ defineProps({
         type: Boolean,
         default: false
     }
-})
+});
 </script>
+
 <template>
+    <!-- Template remains the same -->
     <div class="my-16 sm:mt-20">
         <ul role="list" class="grid grid-cols-1 gap-x-12 gap-y-16 sm:grid-cols-2 lg:grid-cols-3">
             <Project v-for="project in projects.slice(0, limit || projects.length)" :key="project.id"

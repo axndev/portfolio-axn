@@ -1,20 +1,5 @@
 <script setup>
-import axios from 'axios';
-import { onMounted, ref } from 'vue';
 import Projects from '../components/Projects.vue';
-const projects = ref([]);
-
-const getProjects = async () => {
-    try {
-        const response = await axios.get('http://localhost:3000/projects');
-        projects.value = response.data;
-        console.log(projects.value)
-    } catch (error) {
-        console.error('Error fetching posts:', error);
-    }
-}
-
-onMounted(getProjects);
 
 </script>
 <template>
@@ -106,7 +91,7 @@ onMounted(getProjects);
                                 if you see something that piques your interest, check out
                                 the code and contribute if you have ideas for how it can be improved.</p>
                         </header>
-                        <Projects :showBtn="true" :limit="3"/>
+                        <Projects :showBtn="true" :limit=3 />
                         <header class="max-w-2xl mt-16 mb-16">
                             <h1 class="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
                                 Articles</h1>
