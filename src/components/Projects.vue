@@ -3,7 +3,7 @@ import { ref, defineProps } from 'vue';
 import Project from '@/components/Project.vue';
 import { projectsData } from '@/data/projects';
 
-const projects = ref(projectsData); 
+const projects = ref(projectsData);
 
 defineProps({
     limit: {
@@ -19,14 +19,14 @@ defineProps({
 
 <template>
     <!-- Template remains the same -->
-    <div class="my-16 sm:mt-20">
-        <ul role="list" class="grid grid-cols-1 gap-x-12 gap-y-16 sm:grid-cols-2 lg:grid-cols-3">
+    <div class="my-10">
+        <ul role="list" class="grid grid-cols-1 gap-2 sm:grid-cols-2 lg:grid-cols-3">
             <Project v-for="project in projects.slice(0, limit || projects.length)" :key="project.id"
                 :project="project" />
         </ul>
     </div>
     <router-link v-if="showBtn" to="/projects"
-        class="px-6 py-3 lg:m-auto flex items-center text-center w-fit gap-1 hover:gap-3 transition-all duration-100 ease-in-out mt-15 rounded-lg bg-teal-600 text-white font-medium hover:bg-teal-500">
+        class="px-6 py-3 lg:m-auto flex items-center text-center w-fit gap-1 hover:gap-3 transition-all duration-200 ease-in-out mt-15 rounded-lg bg-teal-600 text-white font-medium hover:bg-teal-500">
         <span>View All Projects</span>
         <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="w-7 h-7">
             <g id="SVGRepo_bgCarrier" stroke-width="0"></g>

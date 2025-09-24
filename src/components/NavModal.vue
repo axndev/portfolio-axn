@@ -32,10 +32,8 @@ defineProps({
                         data-open="" data-active="" to="/about">About</router-link></li>
                 <li><router-link @click="toggleMenu()" class="block py-2" data-headlessui-state="open active"
                         data-open="" data-active="" to="/projects">Projects</router-link></li>
-                <li><router-link @click="toggleMenu()" class="block py-2" data-headlessui-state="open active"
-                        data-open="" data-active="" to="/blog">Blog</router-link></li>
                 <li><a @click="toggleMenu()" class="block py-2" data-headlessui-state="open active" data-open=""
-                        data-active="" target="_blank" href="mailto:kaleemullahahsan0@gmail.com">Contact</a></li>
+                        data-active="" href="https://wa.me/923190117384" target="_blank" rel="noopener">Contact</a></li>
             </ul>
         </nav>
     </div>

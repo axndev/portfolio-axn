@@ -18,27 +18,30 @@
                                     bring ideas to life.</h1>
                                 <div class="mt-6 space-y-7 text-base text-zinc-600 dark:text-zinc-400">
                                     <p>I’ve been curious about technology for as long as I can remember. As a teenager,
-                                        I would spend hours experimenting with code, breaking sites on purpose just to
-                                        figure out how to fix them again. What started as a game quickly became an
-                                        obsession — the thrill of seeing something I built actually work on a screen
+                                        I would spend hours <b>experimenting with code</b>, breaking sites on purpose
+                                        just to figure out how to fix them again. What started as a game quickly became
+                                        an obsession the <b>thrill of building something that worked</b> on a screen
                                         kept me hooked.</p>
-                                    <p>By the time I turned 20, I had built complete projects for businesses, portfolios
-                                        for professionals, and tools that solved everyday problems. Along the way, I
-                                        discovered the technologies that excited me most — React, Vue, and Tailwind —
+
+                                    <p>By the time I turned 20, I had <b>completed real projects for businesses</b>,
+                                        designed <b>portfolios for professionals</b>, and created <b>tools that solved
+                                            everyday problems</b>.
+                                        Along the way, I discovered the technologies that excited me most <b>React, Vue,
+                                            and Tailwind</b>
                                         and began shaping them into the foundation of my work.</p>
-                                    <p>Today, I help individuals and businesses turn their
-                                        ideas into modern, functional websites. My focus is simple: to create
-                                        experiences that feel clean, fast, and purposeful — sites that not only look
-                                        good but truly work for the people who use themv
-                                    </p>
+
+                                    <p><b>Today, I help individuals and businesses</b> turn their
+                                        ideas into modern, functional websites. <b>My focus is simple:</b> to craft
+                                        experiences that feel <b>clean, fast, and purposeful</b> sites that not only
+                                        look good but also truly work for the people who use them.</p>
                                 </div>
+
                             </div>
                             <div class="lg:pl-20">
                                 <ul role="list">
                                     <li class="flex">
-                                        <a
-                                            class="group flex text-sm font-medium text-zinc-800 transition hover:text-teal-500 dark:text-zinc-200 dark:hover:text-teal-500"
-                                            href="#">
+                                        <a class="group flex text-sm font-medium text-zinc-800 transition hover:text-teal-500 dark:text-zinc-200 dark:hover:text-teal-500"
+                                            href="https://x.com/kaleemullahahsn">
                                             <svg viewBox="0 0 24 24" aria-hidden="true"
                                                 class="h-6 w-6 flex-none fill-zinc-500 transition group-hover:fill-teal-500">
                                                 <path
@@ -49,9 +52,8 @@
                                         </a>
                                     </li>
                                     <li class="mt-4 flex">
-                                        <a
-                                            class="group flex text-sm font-medium text-zinc-800 transition hover:text-teal-500 dark:text-zinc-200 dark:hover:text-teal-500"
-                                            href="#">
+                                        <a class="group flex text-sm font-medium text-zinc-800 transition hover:text-teal-500 dark:text-zinc-200 dark:hover:text-teal-500"
+                                            href="https://www.instagram.com/ahxandev/">
                                             <svg viewBox="0 0 24 24" aria-hidden="true"
                                                 class="h-6 w-6 flex-none fill-zinc-500 transition group-hover:fill-teal-500">
                                                 <path
@@ -65,9 +67,8 @@
                                         </a>
                                     </li>
                                     <li class="mt-4 flex">
-                                        <a
-                                            class="group flex text-sm font-medium text-zinc-800 transition hover:text-teal-500 dark:text-zinc-200 dark:hover:text-teal-500"
-                                            href="#">
+                                        <a class="group flex text-sm font-medium text-zinc-800 transition hover:text-teal-500 dark:text-zinc-200 dark:hover:text-teal-500"
+                                            href="https://github.com/kaleemullahahsan">
                                             <svg viewBox="0 0 24 24" aria-hidden="true"
                                                 class="h-6 w-6 flex-none fill-zinc-500 transition group-hover:fill-teal-500">
                                                 <path fill-rule="evenodd" clip-rule="evenodd"
@@ -78,9 +79,8 @@
                                         </a>
                                     </li>
                                     <li class="mt-4 flex">
-                                        <a
-                                            class="group flex text-sm font-medium text-zinc-800 transition hover:text-teal-500 dark:text-zinc-200 dark:hover:text-teal-500"
-                                            href="#">
+                                        <a class="group flex text-sm font-medium text-zinc-800 transition hover:text-teal-500 dark:text-zinc-200 dark:hover:text-teal-500"
+                                            href="https://pk.linkedin.com/in/kaleemullahahsan">
                                             <svg viewBox="0 0 24 24" aria-hidden="true"
                                                 class="h-6 w-6 flex-none fill-zinc-500 transition group-hover:fill-teal-500">
                                                 <path
@@ -91,17 +91,15 @@
                                         </a>
                                     </li>
                                     <li class="mt-8 border-t border-zinc-100 pt-8 dark:border-zinc-700/40 flex">
-                                        <a
-                                            class="group flex text-sm font-medium text-zinc-800 transition hover:text-teal-500 dark:text-zinc-200 dark:hover:text-teal-500"
-                                            href="mailto:spencer@planetaria.tech">
-                                            <svg viewBox="0 0 24 24"
-                                                aria-hidden="true"
+                                        <a class="group flex text-sm font-medium text-zinc-800 transition hover:text-teal-500 dark:text-zinc-200 dark:hover:text-teal-500"
+                                            href="mailto:kaleemullahahsan0@gmail.com">
+                                            <svg viewBox="0 0 24 24" aria-hidden="true"
                                                 class="h-6 w-6 flex-none fill-zinc-500 transition group-hover:fill-teal-500">
                                                 <path fill-rule="evenodd"
                                                     d="M6 5a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h12a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H6Zm.245 2.187a.75.75 0 0 0-.99 1.126l6.25 5.5a.75.75 0 0 0 .99 0l6.25-5.5a.75.75 0 0 0-.99-1.126L12 12.251 6.245 7.187Z">
                                                 </path>
                                             </svg>
-                                            <span class="ml-4">spencer@planetaria.tech</span>
+                                            <span class="ml-4">kaleemullahahsan0@gmail.com</span>
                                         </a>
                                     </li>
                                 </ul>
