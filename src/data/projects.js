@@ -35,17 +35,25 @@ export const projectsData  = [
         "url":"https://cccsocd.ca"
     },
     {
-        "icon":"",
+        "icon":"chatgpt.png",
         "id": 6,
+        "title": "ChatGPT Clone",
+        "desc" :"A ChatGPT Clone web app built using the Gemini API, Vue.js, and Tailwind CSS.",
+        "url":"https://axn-chatgpt.netlify.app"
+    },
+    {
+        "icon":"",
+        "id": 7,
         "title": "AXN Weather",
         "desc" :"Weather application using Vue.js to fetch and display weather data.",
         "url":"https://axn-vueweather.netlify.app"
     },
     {
         "icon":"proimagetotext.png",
-        "id": 7,
+        "id": 8,
         "title": "Pro Image To Text",
         "desc" :"Tool / web app to convert images into text (OCR).",
         "url":"https://proimagetotext.com"
     }
+ 
 ]
