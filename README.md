@@ -1,29 +1,22 @@
-# ./
+# Portfolio AXN
 
-This template should help get you started developing with Vue 3 in Vite.
+The official portfolio website of **AXN Dev** — built to highlight my work, skills, and digital presence.
 
-## Recommended IDE Setup
+## ⚙️ Tech Stack
+- Vue 3
+- Tailwind CSS
+- Deployed on Vercel
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 🌟 Features
+- Modern responsive layout
+- Interactive animations
+- Dark mode support
+- Dynamic projects data
+- Fast Lighthouse score
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
+## 🛠 Setup
+```bash
+git clone https://github.com/axndev/portfolio-axn.git
+cd portfolio-axn
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
 npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
