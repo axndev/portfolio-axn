@@ -1,8 +1,6 @@
 <script setup>
 import { onMounted, ref } from "vue";
 import Projects from "../components/Projects.vue";
-import gsap from "gsap";
-import { ScrollTrigger } from "gsap/all";
 
 gsap.registerPlugin(ScrollTrigger);
 const baseImages = [
@@ -12,59 +10,6 @@ const baseImages = [
   "/banner-4.webp",
   "/banner-5.jpg",
 ];
-
-onMounted(() => {
-  const tl = gsap.timeline();
-  tl.from(".content h1", {
-    delay: 0.3,
-    opacity: 0,
-    duration: 0.4,
-  })
-    .from(".content p", {
-      opacity: 0,
-      y: 10,
-      duration: 0.4,
-    })
-    .from(".social a", {
-      opacity: 0,
-      x: -10,
-      stagger: 0.2,
-      duration: 0.4,
-    })
-    .from(".hireBtn", {
-      opacity: 0,
-      y: 20,
-      duration: 0.4,
-    });
-//   gsap.to(".move", {
-//     x: "-100%",
-//     duration: 25,
-//     repeat: Infinity,
-//     ease: "power1.inOut",
-//   });
-});
-
-onMounted(() => {
-  const tl = gsap.timeline({
-    scrollTrigger: {
-      //   markers: true,
-      trigger: ".projects",
-      start: "top 80%",
-      end: "top 40%",
-      scrub: 0.2,
-    },
-  });
-  tl.from(".projects h1", {
-    opacity: 0,
-    y: 20,
-    duration: 0.5,
-  });
-  tl.from(".projects p", {
-    opacity: 0,
-    z: 50,
-    duration: 0.5,
-  });
-});
 </script>
 <template>
   <div class="sm:px-8 mt-9">
