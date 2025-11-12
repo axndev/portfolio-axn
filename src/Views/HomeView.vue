@@ -2,7 +2,6 @@
 import { onMounted, ref } from "vue";
 import Projects from "../components/Projects.vue";
 
-gsap.registerPlugin(ScrollTrigger);
 const baseImages = [
   "/banner-1.webp",
   "/banner-2.jpg",
