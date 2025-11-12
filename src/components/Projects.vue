@@ -2,10 +2,7 @@
 import { ref, defineProps, onMounted } from "vue";
 import Project from "@/components/Project.vue";
 import { projectsData } from "@/data/projects";
-import gsap from "gsap";
-import { ScrollTrigger } from "gsap/all";
 
-gsap.registerPlugin(ScrollTrigger);
 const projects = ref(projectsData);
 
 defineProps({
@@ -19,28 +16,6 @@ defineProps({
   },
 });
 
-onMounted(() => {
-  const tl = gsap.timeline({
-    scrollTrigger: {
-      trigger: ".projects",
-      markers:true,
-      start: "top 30%",
-      end: "top -40%",
-      scrub: 0.2,
-    },
-  });
-  tl.from(".project", {
-    opacity: 0,
-    y: 20,
-    duration: 0.5,
-    stagger:0.5,
-  }).from(".pr-btn", {
-    delay:.5,
-    opacity: 0,
-    z: 50,
-    duration: 0.5,
-  });
-});
 </script>
 
 <template>
