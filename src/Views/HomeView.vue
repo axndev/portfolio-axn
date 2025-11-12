@@ -130,7 +130,7 @@ const baseImages = [
       </div>
     </div>
   </div>
-  <div class="flex items-center justify-center gap-5 py-4 sm:gap-8v">
+  
     <div class="mt-10 -my-4 flex justify-center gap-5 py-4 sm:gap-8 move">
       <div
         v-for="(img, index) in baseImages"
@@ -147,39 +147,6 @@ const baseImages = [
         />
       </div>
     </div>
-    <div class="mt-10 -my-4 flex justify-center gap-5 py-4 sm:gap-8 move">
-      <div
-        v-for="(img, index) in baseImages"
-        :key="index"
-        class="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 sm:w-72 sm:rounded-2xl dark:bg-zinc-800"
-        :class="index % 2 === 0 ? 'rotate-2' : '-rotate-2'"
-      >
-        <img
-          :src="img"
-          alt=""
-          loading="lazy"
-          class="absolute inset-0 h-full w-full object-cover"
-          style="color: transparent"
-        />
-      </div>
-    </div>
-    <div class="mt-10 -my-4 flex justify-center gap-5 py-4 sm:gap-8 move">
-      <div
-        v-for="(img, index) in baseImages"
-        :key="index"
-        class="relative aspect-[9/10] w-44 flex-none overflow-hidden rounded-xl bg-zinc-100 sm:w-72 sm:rounded-2xl dark:bg-zinc-800"
-        :class="index % 2 === 0 ? 'rotate-2' : '-rotate-2'"
-      >
-        <img
-          :src="img"
-          alt=""
-          loading="lazy"
-          class="absolute inset-0 h-full w-full object-cover"
-          style="color: transparent"
-        />
-      </div>
-    </div>
-  </div>
   <div class="sm:px-8 mt-24 md:mt-20">
     <div class="mx-auto w-full max-w-7xl lg:px-8">
       <div class="relative px-4 sm:px-8 lg:px-12">
