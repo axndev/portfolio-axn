@@ -14,7 +14,7 @@ export const projectsData  = [
         "url":"http://awaisco.com"
     },
     {
-        "icon":"",
+        "icon":"pehnawa-clothing.jpg",
         "id": 3,
         "title": "Pehnawa Clothing",
         "desc" :"E-commerce site for women’s clothing, featuring catalog, product pages, online ordering.",
@@ -42,14 +42,14 @@ export const projectsData  = [
         "url":"https://axn-chatgpt.netlify.app"
     },
     {
-        "icon":"",
+        "icon":"favicon.png",
         "id": 7,
-        "title": "AXN Weather",
+        "title": "Vue Weather",
         "desc" :"Weather application using Vue.js to fetch and display weather data.",
-        "url":"https://axn-vueweather.netlify.app"
+        "url":"https://axn-weather.vercel.app/"
     },
     {
-        "icon":"proimagetotext.png",
+        "icon":"proimagetotext.jpg",
         "id": 8,
         "title": "Pro Image To Text",
         "desc" :"Tool / web app to convert images into text (OCR).",
