@@ -1,8 +1,6 @@
 <script setup>
 import NavModal from "@/components/NavModal.vue";
 import { useDark, useToggle } from "@vueuse/core";
-import gsap from "gsap";
-import { onMounted, ref } from "vue";
 
 const isDark = useDark();
 const toggleDark = useToggle(isDark);
@@ -11,19 +9,7 @@ const showMenu = ref(false);
 function toggleMenu() {
   showMenu.value = !showMenu.value;
 }
-onMounted(() => {
-  gsap.from(".navLink", {
-    y: "-100px",
-    opacity: 0,
-    stagger: 0.4,
-    duration: .5,
-  });
-  gsap.from("#homeAavatar", {
-    delay: .5,
-    opacity: 0,
-    duration: .5
-  });
-});
+ 
 </script>
 
 <template>
