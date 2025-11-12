@@ -131,7 +131,7 @@ const baseImages = [
     </div>
   </div>
   
-    <div class="mt-10 -my-4 flex justify-center gap-5 py-4 sm:gap-8 move">
+    <div class="mt-10 -my-4 flex justify-center overflow-hidden gap-5 py-4 sm:gap-8 move">
       <div
         v-for="(img, index) in baseImages"
         :key="index"
