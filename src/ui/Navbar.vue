@@ -1,7 +1,8 @@
 <script setup>
 import NavModal from "@/components/NavModal.vue";
 import { useDark, useToggle } from "@vueuse/core";
-import { ref } from "vue";
+import gsap from "gsap";
+import { onMounted, ref } from "vue";
 
 const isDark = useDark();
 const toggleDark = useToggle(isDark);
@@ -10,6 +11,19 @@ const showMenu = ref(false);
 function toggleMenu() {
   showMenu.value = !showMenu.value;
 }
+onMounted(() => {
+  gsap.from(".navLink", {
+    y: "-100px",
+    opacity: 0,
+    stagger: 0.4,
+    duration: .5,
+  });
+  gsap.from("#homeAavatar", {
+    delay: .5,
+    opacity: 0,
+    duration: .5
+  });
+});
 </script>
 
 <template>
@@ -55,7 +69,7 @@ function toggleMenu() {
           <div class="relative px-4 sm:px-8 lg:px-12">
             <div class="mx-auto max-w-2xl lg:max-w-5xl">
               <div class="relative flex gap-4">
-                <div class="flex flex-1">
+                <div class="flex flex-1 navLink">
                   <div
                     id="smallAvatar"
                     :class="$route.path === '/' ? 'hidden' : ''"
@@ -72,7 +86,7 @@ function toggleMenu() {
                     </RouterLink>
                   </div>
                 </div>
-                <div class="flex flex-1 justify-end md:justify-center">
+                <div class="flex flex-1 justify-end md:justify-center navLink">
                   <div class="pointer-events-auto md:hidden">
                     <button
                       @click="toggleMenu()"
@@ -113,7 +127,7 @@ function toggleMenu() {
                       <li>
                         <router-link
                           to="/about"
-                          class="relative block px-4 py-3  transition hover:text-teal-500 dark:hover:text-teal-400"
+                          class="relative block px-4 py-3 transition hover:text-teal-500 dark:hover:text-teal-400"
                           active-class="text-teal-500 dark:text-teal-400 after:absolute after:inset-x-1 after:-bottom-px after:h-px after:bg-gradient-to-r after:from-teal-500/0 after:via-teal-500/40 after:to-teal-500/0 dark:after:from-teal-400/0 dark:after:via-teal-400/40 dark:after:to-teal-400/0"
                         >
                           About
@@ -129,7 +143,7 @@ function toggleMenu() {
                       </li>
                       <li>
                         <a
-                          class="relative block px-4 py-3  transition hover:text-teal-500 dark:hover:text-teal-400"
+                          class="relative block px-4 py-3 transition hover:text-teal-500 dark:hover:text-teal-400"
                           href="https://wa.me/923190117384"
                           target="_blank"
                           rel="noopener"
@@ -139,7 +153,7 @@ function toggleMenu() {
                     </ul>
                   </nav>
                 </div>
-                <div class="flex justify-end md:flex-1">
+                <div class="flex justify-end md:flex-1 navLink">
                   <div class="pointer-events-auto">
                     <button
                       type="button"
