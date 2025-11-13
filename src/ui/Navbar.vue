@@ -38,10 +38,10 @@ window.addEventListener("scroll", function () {
 
 <template>
 
-    <header class="pointer-events-none relative z-50 flex flex-none flex-col">
+    <header class="pointer-events-none relative z-50 flex flex-none flex-col" data-aos="fade-down">
         <template v-if="$route.path === '/'">
             <div class="order-last mt-[calc(--spacing(16)-(--spacing(3)))]"></div>
-            <div class="sm:px-8 top-0 order-last -mb-3 pt-3" id="homeAavatar">
+            <div class="sm:px-8 top-0 order-last -mb-3 pt-3" id="homeAavatar" data-aos="fade-right">
                 <div class="mx-auto w-full max-w-7xl lg:px-8">
                     <div class="relative px-4 sm:px-8 lg:px-12">
                         <div class="mx-auto max-w-2xl lg:max-w-5xl">

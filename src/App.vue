@@ -2,8 +2,14 @@
 import { onMounted, ref } from "vue";
 import Footer from "./ui/Footer.vue";
 import Navbar from "./ui/Navbar.vue";
-import LocomotiveScroll from "locomotive-scroll";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
 import Loader from "./ui/Loader.vue";
+
+AOS.init({
+  duration: 1000,
+});
+
 </script>
 
 <template>

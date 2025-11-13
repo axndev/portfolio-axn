@@ -20,7 +20,7 @@ defineProps({
 
 <template>
   <!-- Template remains the same -->
-  <div class="my-10">
+  <div class="my-10" data-aos="fade-up">
     <ul
       role="list"
       class="grid projects-grid grid-cols-1 gap-2 sm:grid-cols-2 lg:grid-cols-3"

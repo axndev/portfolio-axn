@@ -16,17 +16,17 @@ const baseImages = [
       <div class="relative px-4 sm:px-8 lg:px-12">
         <div class="mx-auto max-w-2xl lg:max-w-5xl content">
           <div class="max-w-2xl">
-            <h1
+            <h1 data-aos="flip-up"     data-aos-delay="1000"
               class="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100"
             >
               WordPress & Frontend Developer (React & Vue)
             </h1>
-            <p class="mt-6 text-base text-zinc-600 dark:text-zinc-400">
+            <p data-aos="fade-up" data-aos-delay="1400" class="mt-6 text-base text-zinc-600 dark:text-zinc-400">
               I’m Kaleemullah Ahsan, a frontend developer specializing in
               WordPress, React, and Vue. I create fast, responsive, and
               user-friendly websites with clean design and smooth functionality.
             </p>
-            <div class="mt-6 flex gap-6 social">
+            <div class="mt-6 flex gap-6 social" data-aos="fade-right" data-aos-delay="1700">
               <a
                 class="group -m-1 p-1"
                 aria-label="Follow on X"
@@ -93,7 +93,7 @@ const baseImages = [
                 </svg>
               </a>
             </div>
-            <div class="hireBtn">
+            <div class="hireBtn" data-aos="fade-in" data-aos-delay="2000">
               <a
                 href="https://wa.me/923190117384"
                 target="_blank"
@@ -152,12 +152,12 @@ const baseImages = [
       <div class="relative px-4 sm:px-8 lg:px-12">
         <div class="mx-auto max-w-2xl lg:max-w-5xl projects">
           <header class="max-w-2xl">
-            <h1
+            <h1 data-aos="flip-up"
               class="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100"
             >
               Things I’ve made!
             </h1>
-            <p class="mt-6 text-base text-zinc-600 dark:text-zinc-400">
+            <p data-aos="fade-in" class="mt-6 text-base text-zinc-600 dark:text-zinc-400">
               Many of them are open-source, so if you see something that piques
               your interest, check out the code and contribute if you have ideas
               for how it can be improved.
