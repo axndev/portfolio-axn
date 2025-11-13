@@ -2,9 +2,12 @@
 import { onMounted, ref } from "vue";
 import Footer from "./ui/Footer.vue";
 import Navbar from "./ui/Navbar.vue";
+import LocomotiveScroll from "locomotive-scroll";
+import Loader from "./ui/Loader.vue";
 </script>
 
 <template>
+  <Loader />
   <div class="flex w-full">
     <div class="fixed inset-0 flex justify-center sm:px-8">
       <div class="flex w-full max-w-7xl lg:px-8">
@@ -15,11 +18,12 @@ import Navbar from "./ui/Navbar.vue";
     </div>
     <div class="relative flex w-full flex-col">
       <div class="flex-none" style="height: var(--content-offset)"></div>
-      <Navbar />
-      <main  class="flex-auto">
+
+      <main class="flex-auto">
+        <Navbar />
         <router-view />
+        <Footer />
       </main>
-      <Footer />
     </div>
   </div>
 </template>
