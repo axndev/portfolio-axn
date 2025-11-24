@@ -5,7 +5,7 @@ defineProps({
 })
 </script>
 <template>
-    <li class="group relative project flex flex-col transition items-start scale-95 hover:scale-100 dark:border-zinc-700/40 border-1 border-zinc-100 ouline-zinc-50 p-5 rounded-2xl hover:bg-zinc-50 dark:bg-zinc-800/50 hover:dark:bg-zinc-800/100">
+    <li class="group overflow-hidden relative project flex flex-col transition items-start scale-95 hover:scale-100 dark:border-zinc-700/40 border-1 border-zinc-100 ouline-zinc-50 p-5 rounded-2xl hover:bg-zinc-50 dark:bg-zinc-800/50 hover:dark:bg-zinc-800/100">
         <div
             class="relative z-10 flex h-12 w-12 overflow-hidden items-center justify-center rounded-full bg-white shadow-md ring-1 shadow-zinc-800/5 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
             <img :src="project.icon" alt="" loading="lazy" width="32" height="32" decoding="async" data-nimg="1"
